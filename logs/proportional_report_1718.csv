@@ -1,0 +1,7 @@
+File,Pests,Severity_Index,Spray_Intensity_PWM,Action
+14.jpg,0,0.00,0.0%,OFF (Gap/Shadow Detected - Saving Chemical)
+16.jpg,0,0.00,0.0%,OFF (Gap/Shadow Detected - Saving Chemical)
+l1.jpg,19,0.27,35.5%,ON (Intensity: 35.5%)
+l2.jpg,837,0.64,67.9%,ON (Intensity: 67.9%)
+l4.jpg,37,0.60,64.6%,ON (Intensity: 64.6%)
+l5.jpg,113,0.63,67.4%,ON (Intensity: 67.4%)

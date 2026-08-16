@@ -1,0 +1,7 @@
+File,Pests,Severity_Index,Spray_Intensity_PWM,Action
+14.jpg,224,0.62,66.0%,ON (Intensity: 66.0%)
+16.jpg,0,0.00,0.0%,OFF (Saving Chemical)
+l1.jpg,18,0.29,36.6%,ON (Intensity: 36.6%)
+l2.jpg,756,0.69,72.6%,ON (Intensity: 72.6%)
+l4.jpg,38,0.66,69.8%,ON (Intensity: 69.8%)
+l5.jpg,127,0.70,73.0%,ON (Intensity: 73.0%)
