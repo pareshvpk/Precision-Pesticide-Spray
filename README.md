@@ -62,19 +62,9 @@ The accurate application of pesticides is critical for modern agriculture — bo
 
 The pipeline converts each canopy frame into a spray command through four automated stages:
 
-```text
-   📷 Canopy frame
-         │
-         ▼
-┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
-│  STAGE 1            │    │  STAGE 2            │    │  STAGE 3            │    │  STAGE 4            │
-│  Ingestion &        │ ─▶ │  Feature Extraction │ ─▶ │  Decision Logic &   │ ─▶ │  Actuation &        │
-│  Pre-processing     │    │  & Refinement       │    │  Proportional Map   │    │  Reporting          │
-│                     │    │                     │    │                     │    │                     │
-│  RGB → HSV,         │    │  HSV threshold mask,│    │  Severity Index (S),│    │  Spray simulation + │
-│  Gaussian blur      │    │  morphology, contour│    │  PWM duty-cycle map  │    │  CSV data logging   │
-└─────────────────────┘    └─────────────────────┘    └─────────────────────┘    └─────────────────────┘
-```
+<div align="center">
+  <img src="assets/workflow.png" alt="Four-stage precision pesticide spraying pipeline" width="960"/>
+</div>
 
 ### 📥 Stage 1 — Ingestion & Pre-processing
 Image frames are loaded and converted from RGB to **HSV (Hue–Saturation–Value)** color space. Separating hue from intensity lets the system see through the deep shadows and lighting variance of a dense canopy — the leading cause of false positives in naive RGB thresholding. A Gaussian blur suppresses leaf-edge noise.
