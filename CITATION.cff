@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the associated paper."
+title: >-
+  A Unified Simulation Framework for Real-Time Precision Pesticide Spraying
+  Using HSV-Based Pest Localization and Proportional PWM Actuation
+authors:
+  - family-names: "Thamizh Fathima"
+    given-names: "Z."
+    affiliation: "Chennai Institute of Technology"
+  - family-names: "Gnana Kousalya"
+    given-names: "C."
+    affiliation: "Chennai Institute of Technology"
+  - family-names: "Seku Mohamed Hanifa"
+    given-names: "A."
+    affiliation: "Chennai Institute of Technology"
+  - family-names: "Paresh Kumar"
+    given-names: "V."
+    affiliation: "Chennai Institute of Technology"
+preferred-citation:
+  type: conference-paper
+  title: >-
+    A Unified Simulation Framework for Real-Time Precision Pesticide Spraying
+    Using HSV-Based Pest Localization and Proportional PWM Actuation
+  authors:
+    - family-names: "Thamizh Fathima"
+      given-names: "Z."
+    - family-names: "Gnana Kousalya"
+      given-names: "C."
+    - family-names: "Seku Mohamed Hanifa"
+      given-names: "A."
+    - family-names: "Paresh Kumar"
+      given-names: "V."
+  collection-title: >-
+    2026 International Conference on Computational Robotics, Testing and
+    Engineering Evaluation (ICCRTEE)
+  publisher:
+    name: "IEEE"
+  year: 2026
+  # doi: "ADD-YOUR-IEEE-XPLORE-DOI-HERE"
