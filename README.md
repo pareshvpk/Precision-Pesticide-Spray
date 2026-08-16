@@ -29,9 +29,9 @@ Department of Electronics & Communication Engineering · Chennai Institute of Te
 | Author | Affiliation |
 | :-- | :-- |
 | **Thamizh Fathima Z** | Dept. ECE, Chennai Institute of Technology |
-| **Dr. C. Gnana Kousalya** | Dept. ECE, Chennai Institute of Technology |
 | **Seku Mohamed Hanifa A** | Dept. ECE, Chennai Institute of Technology |
 | **V Paresh Kumar** | Dept. ECE, Chennai Institute of Technology |
+| **Dr. C. Gnana Kousalya** | Dept. ECE, Chennai Institute of Technology |
 
 ---
 
@@ -62,17 +62,18 @@ The accurate application of pesticides is critical for modern agriculture — bo
 
 The pipeline converts each canopy frame into a spray command through four automated stages:
 
-```mermaid
-flowchart LR
-    A["📷 Stage 1<br/>Ingestion &amp; Pre-processing<br/><i>RGB → HSV, Gaussian blur</i>"]
-    --> B["🔍 Stage 2<br/>Feature Extraction<br/><i>HSV threshold mask,<br/>morphological opening,<br/>contour analysis</i>"]
-    --> C["🧮 Stage 3<br/>Decision Logic<br/><i>Severity Index (S),<br/>proportional PWM mapping</i>"]
-    --> D["💦 Stage 4<br/>Actuation &amp; Reporting<br/><i>Spray simulation +<br/>CSV data logging</i>"]
-
-    style A fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
-    style B fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
-    style C fill:#fff3e0,stroke:#ef6c00,color:#e65100
-    style D fill:#f3e5f5,stroke:#7b1fa2,color:#4a148c
+```text
+   📷 Canopy frame
+         │
+         ▼
+┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
+│  STAGE 1            │    │  STAGE 2            │    │  STAGE 3            │    │  STAGE 4            │
+│  Ingestion &        │ ─▶ │  Feature Extraction │ ─▶ │  Decision Logic &   │ ─▶ │  Actuation &        │
+│  Pre-processing     │    │  & Refinement       │    │  Proportional Map   │    │  Reporting          │
+│                     │    │                     │    │                     │    │                     │
+│  RGB → HSV,         │    │  HSV threshold mask,│    │  Severity Index (S),│    │  Spray simulation + │
+│  Gaussian blur      │    │  morphology, contour│    │  PWM duty-cycle map  │    │  CSV data logging   │
+└─────────────────────┘    └─────────────────────┘    └─────────────────────┘    └─────────────────────┘
 ```
 
 ### 📥 Stage 1 — Ingestion & Pre-processing
@@ -248,8 +249,8 @@ If you use this work, please cite the paper:
 @inproceedings{fathima2026precisionspraying,
   title     = {A Unified Simulation Framework for Real-Time Precision Pesticide
                Spraying Using HSV-Based Pest Localization and Proportional PWM Actuation},
-  author    = {Thamizh Fathima, Z. and Gnana Kousalya, C. and
-               Seku Mohamed Hanifa, A. and Paresh Kumar, V.},
+  author    = {Thamizh Fathima, Z. and Seku Mohamed Hanifa, A. and
+               Paresh Kumar, V. and Gnana Kousalya, C.},
   booktitle = {2026 International Conference on Computational Robotics, Testing
                and Engineering Evaluation (ICCRTEE)},
   year      = {2026},

@@ -7,14 +7,14 @@ authors:
   - family-names: "Thamizh Fathima"
     given-names: "Z."
     affiliation: "Chennai Institute of Technology"
-  - family-names: "Gnana Kousalya"
-    given-names: "C."
-    affiliation: "Chennai Institute of Technology"
   - family-names: "Seku Mohamed Hanifa"
     given-names: "A."
     affiliation: "Chennai Institute of Technology"
   - family-names: "Paresh Kumar"
     given-names: "V."
+    affiliation: "Chennai Institute of Technology"
+  - family-names: "Gnana Kousalya"
+    given-names: "C."
     affiliation: "Chennai Institute of Technology"
 preferred-citation:
   type: conference-paper
@@ -24,12 +24,12 @@ preferred-citation:
   authors:
     - family-names: "Thamizh Fathima"
       given-names: "Z."
-    - family-names: "Gnana Kousalya"
-      given-names: "C."
     - family-names: "Seku Mohamed Hanifa"
       given-names: "A."
     - family-names: "Paresh Kumar"
       given-names: "V."
+    - family-names: "Gnana Kousalya"
+      given-names: "C."
   collection-title: >-
     2026 International Conference on Computational Robotics, Testing and
     Engineering Evaluation (ICCRTEE)
